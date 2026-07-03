@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    
+    <strong>Simple Calculator</strong>
+    <div class="Calculator">
+        <input type="text" id = "box" placeholder="write here" readonly>
+        <div id="display">
+            <button onclick="control('7')">7</button>
+            <button onclick="control('8')">8</button>
+            <button onclick="control('9')">9</button>
+            <button onclick="control('/')">/</button>
+            <button onclick="control('4')">4</button>
+            <button onclick="control('5')">5</button>
+            <button onclick="control('6')">6</button>
+            <button onclick="control('X')">X</button>
+            <button onclick="control('1')">1</button>
+            <button onclick="control('2')">2</button>
+            <button onclick="control('3')">3</button>
+            <button onclick="control('-')">-</button>
+            <button onclick="control('0')">0</button>
+            <button onclick="clearBox()">C</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="control('+')">+</button>
+        </div>
+        
+
+    </div>
+    <script src='script.js'></script>
+
+</body>
+
+</html>
